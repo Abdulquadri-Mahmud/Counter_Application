@@ -1,0 +1,91 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-image: linear-gradient(to bottom left, #961919 50%, #fff 50%);
+     background-position: center;
+     height: 100vh;
+     background-repeat: no-repeat;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top:14vh;
+}
+.wrapper{
+     width: 70%;
+     padding: 30px 10px;
+     background: #961919 ;
+     border-radius: 15px;
+     color: #fff;
+     box-shadow: 3px 3px 4px #dc8b8b,
+     -0px -3px 4px #dc8b8b;
+}
+.view_counter_cont,.view_status_cont, .button_cont{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.view_counter{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     box-shadow: 3px 3px 4px #dc8b8b,
+     -3px -3px 4px #dc8b8b;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.view_counter #view{
+     font-size: 35px;
+}
+.view_status {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 80%;
+     height: 100px;
+     margin: 6vh 0vh;
+}
+.view_status h2{
+     font-size:26px;
+}
+.view_status h2 span{
+     font-size: 20px;
+}
+
+.button {
+     width: 90%;
+     height: 130px;
+     border-radius:100px;
+     box-shadow: 3px 3px 4px #dc8b8b,
+     -3px -3px 4px #dc8b8b;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.button button{
+     margin: 0px 20px;
+     width: 160px;
+     height: 55px;
+     border-radius: 20px;
+     border: 4px solid #ffffff;
+     background: #c15a5a;
+     font-size: 15px;
+     font-weight: 600;
+     color: #fff;
+}
+@media screen and (max-width:768px) {
+     .wrapper{
+          width: 85%;
+     }
+     .button button{
+          margin: 0px 5px;
+          width: 120px;
+          height: 50px;
+          border-radius: 50px;
+     }
+}
