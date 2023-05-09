@@ -87,8 +87,8 @@ body{
      }
      .button button{
           margin: 0px 5px;
-          width: 120px;
+          width: 110px;
           height: 50px;
-          border-radius: 50px;
+          border-radius: 10px;
      }
 }
